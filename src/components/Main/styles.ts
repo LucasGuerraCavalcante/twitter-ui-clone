@@ -1,5 +1,19 @@
 import styled from 'styled-components';
 
-export const x = styled.div`
+export const Container = styled.div`
 
 `;
+
+export const Header = styled.div`
+
+`;
+
+export const BackIcon = styled.div`
+
+`;
+
+export const ProfileInfo = styled.div`
+
+`;
+
+
