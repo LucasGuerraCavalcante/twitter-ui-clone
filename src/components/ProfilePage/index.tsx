@@ -11,6 +11,8 @@ import {
   EditButton
 } from './styles';
 
+import Feed from '../Feed';
+
 const Main: React.FC = () => {
   return (
     <Container>   
@@ -50,6 +52,8 @@ const Main: React.FC = () => {
           </span>
         </Followage>
       </ProffileData>
+
+      <Feed />
     </Container>
   );
 }
