@@ -7,7 +7,8 @@ import {
   ProffileData,
   LocationIcon,
   CakeIcon,
-  Followage
+  Followage,
+  EditButton
 } from './styles';
 
 const Main: React.FC = () => {
@@ -18,9 +19,9 @@ const Main: React.FC = () => {
       </Banner>   
 
       <ProffileData>
-        {/* <EditButton outlined>
+        <EditButton outlined>
           Edit profile
-        </EditButton> */}
+        </EditButton>
 
         <h1>Lucas Guerra</h1>
         <h2>@********</h2>
