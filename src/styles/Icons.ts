@@ -11,8 +11,12 @@ export {
 export {
     Person,
     Cake,
-    Favorite
+    Favorite,
 } from 'styled-icons/material';
+
+export {
+    Retweet
+} from 'styled-icons/entypo';
 
 export {
     ArrowLeft
@@ -21,3 +25,4 @@ export {
 export {
     Chat
 } from 'styled-icons/heroicons-outline';
+
