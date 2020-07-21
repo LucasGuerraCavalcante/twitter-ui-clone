@@ -3,9 +3,12 @@ export {
     Notifications,
     Email,
     FavoriteBorder,
+    BookmarkBorder,
     ExitToApp,
     LocationOn,
     Search,
+    ListAlt,
+    More
 } from 'styled-icons/material-outlined';
 
 export {
@@ -19,10 +22,15 @@ export {
 } from 'styled-icons/entypo';
 
 export {
-    ArrowLeft
+    ArrowLeft,
+    Hashtag
 } from 'styled-icons/heroicons-solid';
 
 export {
     Chat
 } from 'styled-icons/heroicons-outline';
+
+export {
+    Twitter
+} from 'styled-icons/boxicons-logos';
 
