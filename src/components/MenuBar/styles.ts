@@ -42,6 +42,40 @@ export const Topside = styled.div`
   }
 `;
 
+export const Botside = styled.div`
+  margin-top: 20px;
+
+  display: flex;
+  align-items: center;
+`
+
+export const Avatar = styled.div`
+  width: 39px;
+  height: 39px;
+
+  flex-shrink: 0;
+
+  border-radius: 50%;
+  background: var(--gray);
+`
+
+export const ProfileDate = styled.div`
+  display: none;
+
+  @media (min-width: 1280px) {
+    display: flex;
+    flex-direction: column;
+
+    margin-left: 10px;
+    font-size: 14px;
+
+    > span {
+      color: var(--gray);
+    }
+
+  }
+`
+
 export const MenuButton = styled.button`
   display: flex;
   align-items: center;
@@ -155,3 +189,25 @@ export const MoreIcon = styled(More)`
 `;
 
 
+
+export const ExitIcon = styled(ExitToApp)`
+  display: none;
+
+  @media (min-width: 1280px) {
+    display: inline-block;
+
+    width: 25px;
+    height: 25px;
+
+    color: var(--white);
+
+    margin-left: 30px;
+    cursor: pointer;
+
+    &:hover {
+      > path {
+        color: var(--like)
+      }
+    }
+  }
+`;
