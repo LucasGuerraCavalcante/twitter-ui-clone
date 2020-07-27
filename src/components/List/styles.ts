@@ -27,3 +27,13 @@ export const Title = styled.span`
   font-weight: bold;
   font-size: 19px;
 `;
+
+export const ShowMore = styled.span`
+
+    border-top: 1px solid var(--outline);
+
+    font-size: 17px;
+    padding: 16px 16px;
+
+    color: var(--twitter);
+`;

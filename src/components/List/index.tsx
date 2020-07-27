@@ -3,7 +3,8 @@ import React from 'react';
 import { 
   Container,
   Item,
-  Title
+  Title,
+  ShowMore
 } from './styles';
 
 interface Props {
@@ -23,6 +24,8 @@ const List: React.FC<Props> = ({
           {elements.map((element, index) => (
             <Item key={index}>{element}</Item>
           ))}
+
+          <ShowMore>Show more</ShowMore>
       </Container>
   );
 }
