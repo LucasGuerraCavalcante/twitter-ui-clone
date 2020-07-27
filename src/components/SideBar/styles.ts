@@ -76,3 +76,23 @@ export const Body = styled.div`
     margin-top: 15px;
   }
 `;
+
+export const Bottom = styled.div`
+  display: flex;
+  flex-direction: row;
+  margin: 3px;
+
+  > span {
+    font-size: 12px;
+    padding: 4px;
+    color: var(--gray);
+
+    cursor: pointer;
+
+    &:hover {
+      text-decoration: underline var(--gray);
+    }
+  }
+
+
+`;
