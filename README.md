@@ -2,13 +2,13 @@
 
 ## Deploy
 
-....
+https://nostalgic-johnson-aa83d4.netlify.app
 
 ## Preview
 
-....
+![gif1](http://g.recordit.co/EjJuH2h2h0.gif)
 
-![gif]()
+![gif2](http://g.recordit.co/RjCsj0Jhc9.gif)
 
 Project inspired by Rocketseat's YouTube channel.
 
